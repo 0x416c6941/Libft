@@ -6,7 +6,7 @@
 /*   By: asagymba <asagymba@student.42prague.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:17:35 by asagymba          #+#    #+#             */
-/*   Updated: 2024/11/24 11:04:55 by asagymba         ###   ########.fr       */
+/*   Updated: 2024/11/30 01:18:31 by asagymba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,11 @@ char	*ft_substr(const char *s, unsigned int start, size_t len);
 char	*ft_strjoin(const char *s1, const char *s2);
 char	*ft_strtrim(const char *s1, const char *set);
 char	*ft_strtok_r(char *str, const char *delim, char **saveptr);
+/**
+ * Free result of ft_split().
+ * @param	strs	A result of ft_split().
+ */
+void	ft_split_free(char **strs);
 char	**ft_split(const char *s, char c);
 char	*ft_itoa(int n);
 

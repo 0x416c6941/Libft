@@ -64,6 +64,7 @@ These functions are not a part of a subject, however they may be very useful:
 * ft\_lstremote\_at (removes a node at a given index)
 * ft\_lstremove\_node (removes a given node in a list)
 * ft\_lstinsert\_at (inserts a node at a given index)
+
 The following functions (**projects**) are also integrated here:
 * get\_next\_line
 * ft\_printf

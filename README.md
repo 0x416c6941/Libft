@@ -1,7 +1,7 @@
 # Libft
 The first library and very first project in 42.
 <br>
-Score(*as of 17th of September, 2024*): **125/100**.
+Score (*as of 17th of September, 2024*): **125/100**.
 
 ## Libc functions
 The following Libc functions need to be reimplemented:
